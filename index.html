@@ -1,24 +1,76 @@
 <!DOCTYPE html>
-<html lang="pt-br"> 
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>site dos noivos Saaid e Nicole</title>
+    <title>Nicole & Saaid - Nosso Casamento</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <link rel="stylesheet" href="style.css">
-    <h1>Bem-vindos ao site dos noivos Saaid e Nicole!</h1>
-    <p>Estamos muito felizes em compartilhar este momento especial com vocês!</p>
-    <article>
-        <h2>Sobre os Presentes!</h2>
-        <p> Aqui eu vou deixar uma lista para que possam analisar qual presente sao mais a suas caras!!</p>
-        <ul>
-            <li>Passagens para Lua de Mel</li>
-            <li>Jogo da talheres da traumontina</li>
-            <li>Sofá cama</li>
-            <li>Geladeira</li>
-            <li>robo aspirador</li>
-        </ul>
-    </article>
+    <header class="header">
+        <div class="container">
+            <h1>Nicole & Saaid</h1>
+            <nav class="nav">
+                <a href="index.html">Início</a>
+                <a href="pages/login.html">Lista de Presentes</a>
+                <a href="pages/admin.html">Admin</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <h2>Bem-vindos ao nosso casamento!</h2>
+            <p class="date">13 de Abril de 2027</p>
+            <p class="location">Praia Morro de São Paulo</p>
+        </section>
+
+        <section class="presentes-preview">
+            <div class="container">
+                <h2>Lista de Presentes</h2>
+                <p class="subtitle">Escolha um presente para nos ajudar nessa nova fase!</p>
+                
+                <div class="presentes-grid">
+                    <div class="presente-card">
+                        <div class="presente-icon">🛋️</div>
+                        <h3>Sofá Cama</h3>
+                        <p class="preco">R$ 2.500,00</p>
+                        <p class="status disponivel">Disponível</p>
+                    </div>
+                    
+                    <div class="presente-card">
+                        <div class="presente-icon">❄️</div>
+                        <h3>Geladeira</h3>
+                        <p class="preco">R$ 3.200,00</p>
+                        <p class="status disponivel">Disponível</p>
+                    </div>
+                    
+                    <div class="presente-card">
+                        <div class="presente-icon">📺</div>
+                        <h3>Smart TV 55"</h3>
+                        <p class="preco">R$ 2.800,00</p>
+                        <p class="status disponivel">Disponível</p>
+                    </div>
+                    
+                    <div class="presente-card">
+                        <div class="presente-icon">🤖</div>
+                        <h3>Robô Aspirador</h3>
+                        <p class="preco">R$ 1.500,00</p>
+                        <p class="status reservado">Reservado</p>
+                    </div>
+                </div>
+                
+                <a href="pages/login.html" class="btn-ver-mais">Ver todos os presentes</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Nicole & Saaid - Desenvolvido com ❤️</p>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
